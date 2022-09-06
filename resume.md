@@ -34,33 +34,34 @@ Charlotte, NC | 2017 - Present
 
 #### Machine Learning Engineer — Avian Vocalizations Species Classifier
 * Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
-* Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species
-* Optimized model performance with hyper parameter tuning and validated performance with cross-validation 
+* Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species.
+* Optimized model performance with hyper parameter tuning and validated performance with cross-validation.
 
 #### Technology Consultant — Hiatt Digital, LLC
-* Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology 
+* Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology.
 
 #### Web Development Consultant – TDC Systems
-* Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization
+* Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
 
 ### IBM / The Weather Channel / Weather Underground
-San Francisco, CA	 | 2013 – 2017
+San Francisco, CA | 2013 – 2017
 #### Senior Software Engineer
-* Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions
-* Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map
-* Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations
+* Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions.
+* Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map.
+* Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
 
 ### NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
 Moffett Field, CA | 2007 - 2013
 #### Geospatial Software Engineer / Web Developer
-* Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes 
-* Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends
-* Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes
-## Utah State University GIS Remote Sensing Lab
+* Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
+* Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends.
+* Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes.
+
+### Utah State University GIS Remote Sensing Lab
 Logan, UT | 2006 - 2007
 ### Software Engineer 
-* Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites
-Developed rudimentary web interface for viewing model results
+* Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
+Developed simple web interface for viewing model results.
 
 
 ## Education
@@ -79,9 +80,9 @@ Logan, UT | June 2007
 Online | 2019  
 #### Machine Learning Engineer Nanodegree
 
-* Completed several machine learning projects, demonstrating competency in concepts needed to develop, tune, and evaluate artificial neural networks
-* Designed reinforcement learning agents capable of learning solely through interaction with their environment, and demonstrated their ability to learn to control a virtual quadcopter 
-* Developed unique data visualizations animating the evolution of a RL agent’s neural network as it learns to perform a simple task
+* Completed several machine learning projects, demonstrating competency in concepts needed to develop, tune, and evaluate artificial neural networks.
+* Designed reinforcement learning agents capable of learning solely through interaction with their environment, and demonstrated their ability to learn to control a virtual quadcopter. 
+* Developed unique data visualizations animating the evolution of a RL agent’s neural network as it learns to perform a simple task.
 
 
 ## Volunteering 
@@ -90,18 +91,18 @@ Online | 2019
 East Palo Alto, CA | 2010 – 2013
 #### Interpreter / Translator
 
-* Spanish language interpreter for client interviews and legal clinics
-* Spanish-English translation of personal declarations and legal documents
+* Spanish language interpreter for client interviews and legal clinics.
+* Spanish-English translation of personal declarations and legal documents.
 
 ### Human Rights Center at UC Berkeley
 Berkeley, CA | 2015
 #### Technology Fellow
 
-* Developed productivity tools to assist investigators at the International Criminal Court
+* Developed productivity tools to assist investigators at the International Criminal Court.
 	
 
 ## Additional
 
-* Placed 1st in division at 2022 Motus Off-Road Triathlon, Myrtle Beach, South Carolina
-* Participated in cross-country paragliding competitions in the U.S., Mexico, and South Korea, earning 2017 Rookie of the Year at the Monarca Open in Valle de Bravo, Mexico
-* Built working glider model of seagull from 3D printer, with radio control of flight surfaces
+* Placed 1st in division at 2022 Motus Off-Road Triathlon, Myrtle Beach, South Carolina.
+* Participated in cross-country paragliding competitions in the U.S., Mexico, and South Korea, earning 2017 Rookie of the Year at the Monarca Open in Valle de Bravo, Mexico.
+* Built working glider model of seagull from 3D printer, with radio control of flight surfaces.
