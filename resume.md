@@ -2,6 +2,8 @@
 samhiatt@gmail.com  
 [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt)
 
+————
+
 ## Professional Summary
 Experienced software engineer with a passion for applying open source technology to better understand the natural world. Over a decade of experience in team and solo development projects, with a track record of innovation and execution in a variety of software engineering roles requiring both technical skill and creative problem-solving, demonstrating expertise in programming languages and concepts including:  
 
@@ -25,6 +27,7 @@ Experienced software engineer with a passion for applying open source technology
 * Amazon Web Services
 * Google Cloud
 
+————
 
 ## Professional Experience
 
@@ -61,6 +64,7 @@ Logan, UT | 2006 - 2007
 * Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites
 Developed rudimentary web interface for viewing model results
 
+————
 
 ## Education
 
@@ -82,6 +86,7 @@ Online | 2019
 * Designed reinforcement learning agents capable of learning solely through interaction with their environment, and demonstrated their ability to learn to control a virtual quadcopter 
 * Developed unique data visualizations animating the evolution of a RL agent’s neural network as it learns to perform a simple task
 
+————
 
 ## Volunteering 
 
@@ -97,7 +102,8 @@ Berkeley, CA | 2015
 #### Technology Fellow
 
 * Developed productivity tools to assist investigators at the International Criminal Court
-	
+
+————	
 
 ## Additional
 
