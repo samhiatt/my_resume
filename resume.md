@@ -30,7 +30,7 @@ Experienced software engineer with a passion for applying open source technology
 ## Professional Experience
 
 ### Freelance Projects
-Charlotte, NC | 2017 - Present
+Charlotte, NC | August 2017 - Present
 
 #### Machine Learning Engineer — Avian Vocalizations Species Classifier
 * Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
@@ -44,21 +44,21 @@ Charlotte, NC | 2017 - Present
 * Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
 
 ### IBM / The Weather Channel / Weather Underground
-San Francisco, CA | 2013 – 2017
+San Francisco, CA | September 2013 – April 2017
 #### Senior Software Engineer
 * Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions.
 * Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map.
 * Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
 
 ### NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
-Moffett Field, CA | 2007 - 2013
+Moffett Field, CA | July 2007 - August 2013
 #### Geospatial Software Engineer / Web Developer
 * Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
 * Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends.
 * Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes.
 
 ### Utah State University GIS Remote Sensing Lab
-Logan, UT | 2006 - 2007
+Logan, UT | December 2006 - July 2007
 ### Software Engineer 
 * Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
 Developed simple web interface for viewing model results.
