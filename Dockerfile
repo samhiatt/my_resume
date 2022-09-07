@@ -1,6 +1,8 @@
 FROM alpine
 
-COPY resume.md
+WORKDIR /src
+
+COPY resume.md /src
 # CMD [""]
 RUN pwd
 RUN ls -la
