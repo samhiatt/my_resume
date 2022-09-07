@@ -28,4 +28,4 @@ images:
 artifacts:
   objects:  
     location: 'gs://samhiatt-resume-artifacts/$COMMIT_SHA/'
-    paths: ['/output/resume.pdf']
+    paths: ['resume.pdf']
