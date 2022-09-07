@@ -8,7 +8,7 @@ steps:
         'build',
         '--file', 'Dockerfile',
         '-t', 'gcr.io/$PROJECT_ID/my_resume:latest',
-        '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
+#        '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
         '--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
         '.' ]
         
@@ -21,7 +21,7 @@ steps:
 
 
 images:
-  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
+#  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
   - 'gcr.io/$PROJECT_ID/my_resume:latest'
 
 artifacts:
