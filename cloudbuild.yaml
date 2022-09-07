@@ -9,7 +9,7 @@ steps:
         '--file', 'Dockerfile',
         '-t', 'gcr.io/$PROJECT_ID/my_resume:latest',
         '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
-        #'--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
+        '--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
         '.' ]
         
 #  - name: 'gcr.io/cloud-builders/docker'
@@ -20,11 +20,11 @@ steps:
 #    args: [ "run", "--rm", "-v", "vol1:/output", "output"]
 
 
-#images:
-#  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
-#  - 'gcr.io/$PROJECT_ID/my_resume:latest'
+images:
+  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
+  - 'gcr.io/$PROJECT_ID/my_resume:latest'
 
-#artifacts:
-#  objects:  
-#    location: gs://
-#    paths: ['/output']
+artifacts:
+  objects:  
+    location: 'gs://samhiatt-resume-artifacts/$COMMIT_SHA/'
+    paths: ['/output']
