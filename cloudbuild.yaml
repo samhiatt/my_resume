@@ -1,8 +1,8 @@
 steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    entrypoint: 'bash'
-    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/my_resume:latest &&
-                   docker tag gcr.io/$PROJECT_ID/my_resume:latest my_resume:local' ]
+#  - name: 'gcr.io/cloud-builders/docker'
+#    entrypoint: 'bash'
+#    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/my_resume:latest &&
+#                   docker tag gcr.io/$PROJECT_ID/my_resume:latest my_resume:local' ]
   - name: 'gcr.io/cloud-builders/docker'
     args: [
         'build',
