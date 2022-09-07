@@ -1,0 +1,30 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/my_resume:latest &&
+                   docker tag gcr.io/$PROJECT_ID/my_resume:latest my_resume:local' ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+        'build',
+        '--file', 'Dockerfile',
+        '-t', 'gcr.io/$PROJECT_ID/my_resume:latest',
+        '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
+        #'--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
+        '.' ]
+        
+#  - name: 'gcr.io/cloud-builders/docker'
+#    volumes:
+#      - name: 'vol1'
+#        path: '/output'
+##    args: [ "run", "--rm", "-v", "vol1:/output", "gcr.io/$PROJECT_ID/output:latest"]
+#    args: [ "run", "--rm", "-v", "vol1:/output", "output"]
+
+
+#images:
+#  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
+#  - 'gcr.io/$PROJECT_ID/my_resume:latest'
+
+#artifacts:
+#  objects:  
+#    location: gs://
+#    paths: ['/output']
