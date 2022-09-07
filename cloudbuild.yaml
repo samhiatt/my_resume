@@ -21,8 +21,8 @@ steps:
 #    args: [ "run", "--rm", "-v", "vol1:/output", "output"]
     args: [ 'run', '--name', 'pandoc_container', 'gcr.io/$PROJECT_ID/my_resume:latest']
     
-  - name: 'gcr.io/cloud-builders/docker',
-    args: ['cp', 'gcr.io/$PROJECT_ID/my_resume:latest:/output/resume.pdf', './resume.pdf'] 
+#  - name: 'gcr.io/cloud-builders/docker',
+#    args: ['cp', 'pandoc_container:/output/resume.pdf', './resume.pdf'] 
 
 images:
 #  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
@@ -31,4 +31,4 @@ images:
 artifacts:
   objects:  
     location: 'gs://samhiatt-resume-artifacts/$COMMIT_SHA/'
-    paths: ['*.pdf']
+    paths: ['/output/*']
