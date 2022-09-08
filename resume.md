@@ -1,7 +1,3 @@
----
-geometry: “margin=1in”
-fontsize: “11pt”
----
 # Samuel Hiatt
 samhiatt@gmail.com  
 [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt)
