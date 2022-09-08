@@ -1,9 +1,9 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/my_resume:latest']
-#                    && docker tag gcr.io/$PROJECT_ID/my_resume:latest my_resume:local' ]
+    args: [ '-c', 'ls -la; docker pull gcr.io/$PROJECT_ID/my_resume:latest']
 
+### Build 
   - name: 'gcr.io/cloud-builders/docker'
     args: [
         'build',
@@ -13,13 +13,13 @@ steps:
         '--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
         '.' ]
         
-  - name: 'gcr.io/cloud-builders/docker'
-    volumes:
-    - name: 'vol1'
-      path: '/output'
+#  - name: 'gcr.io/cloud-builders/#docker'
+#    volumes:
+#    - name: 'vol1'
+#      path: '/output'
 ##    args: [ "run", "--rm", "-v", "vol1:/output", "gcr.io/$PROJECT_ID/output:latest"]
 #    args: [ "run", "--rm", "-v", "vol1:/output", "output"]
-    args: [ 'run', '--name', 'pandoc_container', 'gcr.io/$PROJECT_ID/my_resume:latest']
+#    args: [ 'run', '--name', #'pandoc_container', 'gcr.io/#$PROJECT_ID/my_resume:latest']
     
 #  - name: 'gcr.io/cloud-builders/docker',
 #    args: ['cp', 'pandoc_container:/output/resume.pdf', './resume.pdf']
@@ -44,12 +44,19 @@ steps:
   - name: 'gcr.io/cloud-builders/git'
     args:
     - clone
-    - --recurse-submodules
     - git@github.com:samhiatt/my_resume
     volumes:
     - name: 'ssh'
       path: /root/.ssh
+   
+ 
+  - name: 'gcr.io/cloud-builders/git'
+    args: ['-c', 'git status; ls -la .; ls -la /output; cd my_resume; git status']
+    volumes:
+    - name: 'ssh'
+      path: /root/.ssh
       
+# Checkout $COMMIT_SHA 
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
     args: ['-c', 'ls -la .; ls -la /output']
