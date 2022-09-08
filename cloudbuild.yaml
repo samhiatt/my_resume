@@ -27,6 +27,8 @@ steps:
       chmod 400 /root/.ssh/id_rsa
       git log -n 3
       git remote set-url --push origin git@github.com:samhiatt/my_resume
+      git config --global user.email "samhiatt@gmail.com"
+      git config --global user.name "Sam Hiatt"
       git remote -v
     volumes:
     - name: 'ssh'
