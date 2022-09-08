@@ -52,7 +52,7 @@ steps:
       
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: ['-c', 'ls -la /output']
+    args: ['-c', 'ls -la .; ls -la /output']
     volumes:
     - name: 'ssh'
       path: /root/.ssh
