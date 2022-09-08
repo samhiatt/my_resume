@@ -23,7 +23,7 @@ steps:
     - |
       ls -la
       pandoc --version 
-      pandoc resume.md --pdf-engine=xelatex -o resume.pdf
+      pandoc --variable "geometry=margin=1in" resume.md --pdf-engine=xelatex -o resume.pdf
       
 
 # Setup SSH and commit generated PDF
