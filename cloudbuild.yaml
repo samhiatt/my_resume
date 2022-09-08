@@ -1,13 +1,16 @@
 steps:
+### Pull cached build image
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'ls -la; docker pull gcr.io/$PROJECT_ID/my_resume:latest']
+    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/my_resume:latest']
 
-### Build 
+### Build Docker image with pandoc and xeLaTeX
   - name: 'gcr.io/cloud-builders/docker'
+    secretEnv: ['SSH_KEY']
     args: [
         'build',
         '--file', 'Dockerfile',
+        '--build-arg','GITHUB_RSA_PRIV_KEY=$$SSH_KEY',
         '-t', 'gcr.io/$PROJECT_ID/my_resume:latest',
 #        '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
         '--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
@@ -33,24 +36,24 @@ steps:
     args:
     - -c
     - |
-      ssh-keyscan -t rsa github.com > known_hosts.github
       echo "$$SSH_KEY" >> /root/.ssh/id_rsa
       chmod 400 /root/.ssh/id_rsa
-      cp known_hosts.github /root/.ssh/known_hosts
+      git log -n 3
+      git remote -v
     volumes:
     - name: 'ssh'
       path: /root/.ssh
 
-# Clone the repository
-  - name: 'gcr.io/cloud-builders/git'
-    args:
-    - clone
-    - git@github.com:samhiatt/my_resume
-    volumes:
-    - name: 'ssh'
-      path: /root/.ssh
+### Clone the repository
+  #- name: 'gcr.io/cloud-builders/git'
+  #  args:
+  #  - clone
+  #  - git@github.com:samhiatt/my_resume
+  #  volumes:
+  #  - name: 'ssh'
+  #    path: /root/.ssh
    
- 
+### 
   - name: 'gcr.io/cloud-builders/git'
     entrypoint: 'bash'
     args: ['-c', 'git status; ls -la .; ls -la /output; cd my_resume; git status']
