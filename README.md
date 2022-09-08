@@ -16,3 +16,5 @@ This repository contains the scripts needed to automate PDF generation in the cl
 The PDF document [resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/resume.pdf) is generated from the markdown source using pandoc.
 
 
+## License
+This code is open source! [LICENSE.txt](LICENSE.txt) contains the MIT license.
