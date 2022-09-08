@@ -1,7 +1,8 @@
 # Samuel Hiatt
+::: columns
 samhiatt@gmail.com  
 [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt)
-
+:::
 
 ## Professional Summary
 Experienced software engineer with a passion for applying open source technology to better understand the natural world. Over a decade of experience in team and solo development projects, with a track record of innovation and execution in a variety of software engineering roles requiring both technical skill and creative problem-solving, demonstrating expertise in programming languages and concepts including:  
