@@ -26,10 +26,8 @@ steps:
     
 #  - name: 'gcr.io/cloud-builders/docker',
 #    args: ['cp', 'pandoc_container:/output/resume.pdf', './resume.pdf']
-
-# TODO: run: pandoc resume.md --pdf-engine=xelatex -o /output/resume.pdf
  
-# Access the id_github file from Secret Manager, and setup SSH
+# Access the github rsa file from Secret Manager, and setup SSH
   - name: 'gcr.io/cloud-builders/git'
     secretEnv: ['SSH_KEY']
     entrypoint: 'bash'
@@ -45,6 +43,17 @@ steps:
     - name: 'ssh'
       path: /root/.ssh
 
+# TODO: run: pandoc resume.md --pdf-engine=xelatex -o /output/resume.pdf
+### Run pandoc using custom Docker image
+  - name: 'gcr.io/$PROJECT_ID/my_resume:latest',
+    entrypoint: 'bash'
+    args:
+    - -c
+    - |
+      ls -la
+      pandoc --version 
+      pandoc resume.md --pdf-engine=xelatex -o resume.pdf
+
 ### Clone the repository
   #- name: 'gcr.io/cloud-builders/git'
   #  args:
@@ -55,17 +64,17 @@ steps:
   #    path: /root/.ssh
    
 ### 
-  - name: 'gcr.io/cloud-builders/git'
-    entrypoint: 'bash'
-    args: ['-c', 'git status; ls -la .; ls -la /output; cd my_resume; git status']
-    volumes:
-    - name: 'ssh'
-      path: /root/.ssh
+#  - name: 'gcr.io/cloud-builders/git'
+#    entrypoint: 'bash'
+#    args: ['-c', 'git status; ls -la .; ls -la /output; cd my_resume; git status']
+#    volumes:
+#    - name: 'ssh'
+#      path: /root/.ssh
       
 # Checkout $COMMIT_SHA 
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: ['-c', 'ls -la .; ls -la my_resume; git status']
+    args: ['-c', 'ls -la .; git status']
     volumes:
     - name: 'ssh'
       path: /root/.ssh
