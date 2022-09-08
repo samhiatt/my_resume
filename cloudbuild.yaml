@@ -23,7 +23,7 @@ steps:
     - |
       ls -la
       pandoc --version 
-      pandoc --variable "geometry=margin=1in" --variable fontsize=11pt resume.md --pdf-engine=xelatex -o resume.pdf
+      pandoc-H chapter_break.tex --variable "geometry=margin=1in" --variable fontsize=11pt resume.md --pdf-engine=xelatex -o resume.pdf
       
 
 # Setup SSH and commit generated PDF
