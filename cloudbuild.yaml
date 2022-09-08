@@ -33,7 +33,6 @@ steps:
     args:
     - -c
     - |
-      git status
       ssh-keyscan -t rsa github.com > known_hosts.github
       echo "$$SSH_KEY" >> /root/.ssh/id_rsa
       chmod 400 /root/.ssh/id_rsa
@@ -53,6 +52,7 @@ steps:
    
  
   - name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
     args: ['-c', 'git status; ls -la .; ls -la /output; cd my_resume; git status']
     volumes:
     - name: 'ssh'
