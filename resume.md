@@ -1,5 +1,5 @@
 ---
-\usepackage{multicol}
+usepackage: multicol
 ---
 # Samuel Hiatt
 samhiatt@gmail.com  
