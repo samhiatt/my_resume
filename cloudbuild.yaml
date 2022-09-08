@@ -11,12 +11,12 @@ steps:
         'build',
         '--file', 'Dockerfile',
         '--build-arg','GITHUB_RSA_PRIV_KEY=$$SSH_KEY',
-        '-t', 'gcr.io/$PROJECT_ID/my_resume:latest',
+        '-t', 'gcr.io/$PROJECT_ID/pandoc:latest',
 #        '-t', 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA',
-        '--cache-from', 'gcr.io/$PROJECT_ID/my_resume:latest',
+        '--cache-from', 'gcr.io/$PROJECT_ID/pandoc:latest',
         '.' ]
         
-#  - name: 'gcr.io/cloud-builders/#docker'
+#  - name: 'gcr.io/cloud-builders/docker'
 #    volumes:
 #    - name: 'vol1'
 #      path: '/output'
@@ -45,7 +45,7 @@ steps:
 
 # TODO: run: pandoc resume.md --pdf-engine=xelatex -o /output/resume.pdf
 ### Run pandoc using custom Docker image
-  - name: 'gcr.io/$PROJECT_ID/my_resume:latest',
+  - name: 'gcr.io/$PROJECT_ID/pandoc:latest'
     entrypoint: 'bash'
     args:
     - -c
@@ -88,8 +88,7 @@ availableSecrets:
 
 
 images:
-#  - 'gcr.io/$PROJECT_ID/my_resume:$COMMIT_SHA'
-  - 'gcr.io/$PROJECT_ID/my_resume:latest'
+  - 'gcr.io/$PROJECT_ID/pandoc:latest'
 
 #artifacts:
 #  objects:  
