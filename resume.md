@@ -1,6 +1,3 @@
----
-usepackage: multicol
----
 # Samuel Hiatt
 samhiatt@gmail.com  
 [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt)

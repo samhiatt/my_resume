@@ -23,7 +23,7 @@ steps:
     - |
       ls -la
       pandoc --version 
-      pandoc -H contrib/section_break.tex --lua-filter="./contrib/columns.lua" --variable "geometry=margin=1in" --variable fontsize=11pt resume.md --pdf-engine=xelatex -o resume.pdf
+      pandoc -H contrib/header.tex --lua-filter="./contrib/columns.lua" --variable "geometry=margin=1in" --variable fontsize=11pt resume.md --pdf-engine=xelatex -o resume.pdf
       
 
 # Setup SSH and commit generated PDF
