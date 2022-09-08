@@ -4,7 +4,7 @@ WORKDIR /src
 
 #CMD ["pandoc", "--pdf-engine=xelatex"]
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install pandoc texlive-xetex
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install pandoc texlive-xetex texlive-latex-base
 RUN pandoc --version
 
 
