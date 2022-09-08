@@ -2,7 +2,7 @@ steps:
 ### Pull cached build image
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/pandoc:latest']
+    args: [ '-c', 'docker pull gcr.io/$PROJECT_ID/pandoc:latest || echo Building Docker image...']
 
 ### Build Docker image with pandoc and xeLaTeX
   - name: 'gcr.io/cloud-builders/docker'
