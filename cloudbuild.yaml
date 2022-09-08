@@ -61,12 +61,12 @@ steps:
 # Checkout $COMMIT_SHA 
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: ['-c', 'ls -la .; ls -la /output']
+    args: ['-c', 'ls -la .; ls -la my_resume; git status']
     volumes:
     - name: 'ssh'
       path: /root/.ssh
-    - name: 'vol1'
-      path: '/output' 
+    #- name: 'vol1'
+    #  path: '/output' 
 
 availableSecrets:
   secretManager:
