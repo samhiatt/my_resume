@@ -18,3 +18,8 @@ The PDF document [resume.pdf](https://github.com/samhiatt/my_resume/blob/generat
 
 ## License
 This code is open source! [LICENSE.txt](LICENSE.txt) contains the MIT license.
+
+
+## Acknowledgements
+Thanks to:  
+* [John C. Lokman’s tips](https://levelup.gitconnected.com/use-columns-adjust-margins-and-do-more-in-markdown-with-these-simple-pandoc-commands-adb4c19f9f35) on supporting columns in markdown.
