@@ -45,6 +45,7 @@ Charlotte, NC | August 2017 - Present
 
 ### IBM / The Weather Channel / Weather Underground
 San Francisco, CA | September 2013 – April 2017
+
 #### Senior Software Engineer
 * Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions.
 * Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map.
@@ -52,6 +53,7 @@ San Francisco, CA | September 2013 – April 2017
 
 ### NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
 Moffett Field, CA | July 2007 - August 2013
+
 #### Geospatial Software Engineer / Web Developer
 * Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
 * Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends.
@@ -59,6 +61,7 @@ Moffett Field, CA | July 2007 - August 2013
 
 ### Utah State University GIS Remote Sensing Lab
 Logan, UT | December 2006 - July 2007
+
 ### Software Engineer 
 * Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
 Developed simple web interface for viewing model results.
@@ -68,6 +71,7 @@ Developed simple web interface for viewing model results.
 
 ### Utah State University, Quinney College of Natural Resources
 Logan, UT | June 2007
+
 #### Bachelor of Science, Geography
 
 * Computer Science Minor 
@@ -78,6 +82,7 @@ Logan, UT | June 2007
 
 ### Udacity
 Online | 2019  
+
 #### Machine Learning Engineer Nanodegree
 
 * Completed several machine learning projects, demonstrating competency in concepts needed to develop, tune, and evaluate artificial neural networks.
@@ -89,13 +94,15 @@ Online | 2019
 
 ### Community Legal Services
 East Palo Alto, CA | 2010 – 2013
+
 #### Interpreter / Translator
 
 * Spanish language interpreter for client interviews and legal clinics.
 * Spanish-English translation of personal declarations and legal documents.
 
 ### Human Rights Center at UC Berkeley
-Berkeley, CA | 2015
+Berkeley, CA | 2015 
+
 #### Technology Fellow
 
 * Developed productivity tools to assist investigators at the International Criminal Court.
