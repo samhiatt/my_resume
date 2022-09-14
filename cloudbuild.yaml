@@ -30,6 +30,7 @@ steps:
       git remote set-url --push origin git@github.com:samhiatt/my_resume
       git config --global user.email "samhiatt@gmail.com"
       git config --global user.name "Sam Hiatt / Google Cloud Build" 
+      git fetch origin generated
       git checkout -t origin/generated
       git merge master --ff-only
       git log -n 3
