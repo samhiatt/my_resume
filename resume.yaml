@@ -57,8 +57,8 @@ experience:
     - Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
 
   - institution: NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
-Moffett Field, CA | July 2007 - August 2013
-
+    place: Moffett Field, CA
+    date: July 2007 - August 2013
     role: Geospatial Software Engineer / Web Developer
     details: 
     - Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
