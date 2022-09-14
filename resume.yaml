@@ -71,7 +71,7 @@ experience:
     role: Software Engineer 
     details:
     - Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
-Developed simple web interface for viewing model results.
+    - Developed simple web interface for viewing model results.
 
 
   education: 
