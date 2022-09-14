@@ -55,7 +55,8 @@ steps:
     entrypoint: 'bash'
     args:
     - -c
-    - |
+    - | 
+      ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
       git status
       git add generated/
       git status
