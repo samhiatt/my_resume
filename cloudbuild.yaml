@@ -82,4 +82,4 @@ images:
 artifacts:
   objects:  
     location: 'gs://samhiatt-resume-artifacts/$COMMIT_SHA/'
-    paths: ['resume.pdf']
+    paths: ['generated/*']
