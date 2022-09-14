@@ -1,7 +1,7 @@
 # My Resume
-My professional resume. You can view it in PDF form [here](https://github.com/samhiatt/my_resume/blob/generated/resume.pdf).
+My resume. 
 
-This repository contains the scripts needed to automate PDF generation in the cloud from the [markdown source here](/resume.md). 
+This repo contains a [Google Cloud Build profile](/cloudbuild.yaml) that automatically generates [my_resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/generated/resume.pdf) from the [markdown source here](/resume.md). 
 
 ## Source Code
 
