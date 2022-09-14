@@ -27,97 +27,95 @@ skills:
 - Google Cloud
 
 experience: 
-
-  - institution: Freelance Projects
-    place: Charlotte, NC 
-    date: "August 2017 - Present"
-    projects: 
-    - project: Avian Vocalizations Species Classifier
-      role: Machine Learning Engineer
-      details:
-      - Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
-      - Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species.
-      - Optimized model performance with hyper parameter tuning and validated performance with cross-validation.
-
-    - institution: "Technology Consultant - Hiatt Digital, LLC"
-      details:
-      - Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology.
-
-    - institution: "Web Development Consultant – TDC Systems"
-      details:
-      - Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
-
-  - institution: IBM / The Weather Channel / Weather Underground
-    place: San Francisco, CA 
-    date: "September 2013 - April 2017"
-    role: Senior Software Engineer
+- institution: Freelance Projects
+  place: Charlotte, NC 
+  date: "August 2017 - Present"
+  projects: 
+  - project: Avian Vocalizations Species Classifier
+    role: Machine Learning Engineer
     details:
-    - Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions.
-    - Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map.
-    - Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
+    - Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
+    - Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species.
+    - Optimized model performance with hyper parameter tuning and validated performance with cross-validation.
 
-  - institution: NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
-    place: Moffett Field, CA
-    date: "July 2007 - August 2013"
-    role: Geospatial Software Engineer / Web Developer
-    details: 
-    - Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
-    - Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends.
-    - Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes.
-
-  - institution: Utah State University GIS Remote Sensing Lab
-    place: Logan, UT
-    date: "December 2006 - July 2007"
-    role: Software Engineer 
+  - project: "Technology Consultant - Hiatt Digital, LLC"
     details:
-    - Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
-    - Developed simple web interface for viewing model results.
+    - Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology.
+
+  - project: "Web Development Consultant – TDC Systems"
+    details:
+    - Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
+
+- institution: IBM / The Weather Channel / Weather Underground
+  place: San Francisco, CA 
+  date: "September 2013 - April 2017"
+  role: Senior Software Engineer
+  details:
+  - Applied transfer learning to retrain an open source image classification model and infer meteorological conditions from images, providing a novel method for automated validation of current weather conditions.
+  - Worked on an Agile team of developers and designers to develop real-time map layers and UI components for the Wundermap, a web-based interactive weather map.
+  - Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
+
+- institution: NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
+  place: Moffett Field, CA
+  date: "July 2007 - August 2013"
+  role: Geospatial Software Engineer / Web Developer
+  details: 
+  - Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
+  - Designed and developed custom web applications for publishing satellite data products and built mechanisms for efficiently querying large geospatial datasets and generating on-demand visualizations of data trends.
+  - Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes.
+
+- institution: Utah State University GIS Remote Sensing Lab
+  place: Logan, UT
+  date: "December 2006 - July 2007"
+  role: Software Engineer 
+  details:
+  - Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
+  - Developed simple web interface for viewing model results.
 
 
-  education: 
+education: 
 
-    - institution: Utah State University, Quinney College of Natural Resources
-      place: Logan, UT
-      date: June 2007
-      degree: Bachelor of Science, Geography
-      details: 
-      - Computer Science Minor 
-      - Engineering Mathematics Minor
-      - Geographical Information Science Minor
-      - "Dean’s List, College of Natural Resources - 2006, 2007"
-      - "Six-month immersive study (geography and computer science) at the University of Costa Rica"
+- institution: Utah State University, Quinney College of Natural Resources
+  place: Logan, UT
+  date: June 2007
+  degree: Bachelor of Science, Geography
+  details: 
+  - Computer Science Minor 
+  - Engineering Mathematics Minor
+  - Geographical Information Science Minor
+  - "Dean’s List, College of Natural Resources - 2006, 2007"
+  - "Six-month immersive study (geography and computer science) at the University of Costa Rica"
 
-    - institution: Udacity
-      place: Online
-      date: 2019  
+- institution: Udacity
+  place: Online
+  date: 2019  
 
-    - institution: Machine Learning Engineer Nanodegree
-      details:
-      - Completed several machine learning projects, demonstrating competency in concepts needed to develop, tune, and evaluate artificial neural networks.
-      - Designed reinforcement learning agents capable of learning solely through interaction with their environment, and demonstrated their ability to learn to control a virtual quadcopter. 
-      - Developed unique data visualizations animating the evolution of a RL agent’s neural network as it learns to perform a simple task.
+- institution: Machine Learning Engineer Nanodegree
+  details:
+  - Completed several machine learning projects, demonstrating competency in concepts needed to develop, tune, and evaluate artificial neural networks.
+  - Designed reinforcement learning agents capable of learning solely through interaction with their environment, and demonstrated their ability to learn to control a virtual quadcopter. 
+  - Developed unique data visualizations animating the evolution of a RL agent’s neural network as it learns to perform a simple task.
 
 
-  volunteering: 
+volunteering: 
 
-    - institution: Community Legal Services
-      place: East Palo Alto, CA 
-      date: "2010 – 2013"
-      role: Interpreter / Translator
-      details:
-      - Spanish language interpreter for client interviews and legal clinics.
-      - Spanish-English translation of personal declarations and legal documents.
+- institution: Community Legal Services
+  place: East Palo Alto, CA 
+  date: "2010 – 2013"
+  role: Interpreter / Translator
+  details:
+  - Spanish language interpreter for client interviews and legal clinics.
+  - Spanish-English translation of personal declarations and legal documents.
 
-    - institution: Human Rights Center at UC Berkeley
-      place: Berkeley, CA 
-      date: 2015 
-      role: Technology Fellow
-      details: 
-      - Developed productivity tools to assist investigators at the International Criminal Court.
+- institution: Human Rights Center at UC Berkeley
+  place: Berkeley, CA 
+  date: 2015 
+  role: Technology Fellow
+  details: 
+  - Developed productivity tools to assist investigators at the International Criminal Court.
 	
 
 additional:
-
-  - Placed 1st in division at 2022 Motus Off-Road Triathlon, Myrtle Beach, South Carolina.
-  - Participated in cross-country paragliding competitions in the U.S., Mexico, and South Korea, earning 2017 Rookie of the Year at the Monarca Open in Valle de Bravo, Mexico.
-  - Built working glider model of seagull from 3D printer, with radio control of flight surfaces.
+- Placed 1st in division at 2022 Motus Off-Road Triathlon, Myrtle Beach, South Carolina.
+- Participated in cross-country paragliding competitions in the U.S., Mexico, and South Korea, earning 2017 Rookie of the Year at the Monarca Open in Valle de Bravo, Mexico.
+- Built working glider model of seagull from 3D printer, with radio control of flight surfaces.
