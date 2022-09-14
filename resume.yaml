@@ -31,21 +31,21 @@ experience:
   - institution: Freelance Projects
     place: Charlotte, NC 
     date: August 2017 - Present
+    projects: 
+    - project: Avian Vocalizations Species Classifier
+      role: Machine Learning Engineer
+      details:
+      - Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
+      - Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species.
+      - Optimized model performance with hyper parameter tuning and validated performance with cross-validation.
 
-  - role: Machine Learning Engineer
-    project: Avian Vocalizations Species Classifier
-    details:
-    - Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
-    - Compiled a training dataset from a selection of crowd-sourced recordings provided by xeno-canto.org, and demonstrated the model’s ability to learn and infer species.
-    - Optimized model performance with hyper parameter tuning and validated performance with cross-validation.
+    - institution: Technology Consultant -- Hiatt Digital, LLC
+      details:
+      - Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology.
 
-  - institution: Technology Consultant -- Hiatt Digital, LLC
-    details:
-    - Advised small business digital transformation services, identifying cloud-based strategies to protect clients’ on-premises data storage, supporting services backed by Azure, AWS, Google Cloud, and Synology.
-
-  - institution: Web Development Consultant – TDC Systems
-    details:
-    - Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
+    - institution: Web Development Consultant – TDC Systems
+      details:
+      - Developed a serverless content management system with automated deployment to Google Cloud Services, cutting costs while mitigating security risks and improving page speed and search engine optimization.
 
   - institution: IBM / The Weather Channel / Weather Underground
     place: San Francisco, CA 
