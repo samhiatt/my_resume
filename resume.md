@@ -1,13 +1,13 @@
-...
+---
 
 title: Resume - Samuel Hiatt
 author: Samuel Hiatt
 date: \date
-header-includes: 
-- \let\toprule\relax
-- \let\bottomrule\relax
+header-includes: | 
+  \let\toprule\relax
+  \let\bottomrule\relax
   
-...
+---
 
 # Samuel Hiatt
 

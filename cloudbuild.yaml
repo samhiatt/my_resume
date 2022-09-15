@@ -45,7 +45,7 @@ steps:
     - -c
     - |
       pandoc --version 
-      pandoc -f gfm  \
+      pandoc  \
       -V colorlinks \
       -V urlcolor=NavyBlue \
       --variable "geometry=margin=1in" \
