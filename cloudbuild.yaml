@@ -32,7 +32,9 @@ steps:
       git config --global user.email "samhiatt@gmail.com"
       git config --global user.name "Sam Hiatt / Google Cloud Build" 
       git fetch --all
-      git checkout -t origin/generated && git merge -X theirs --allow-unrelated-histories origin/main
+      git checkout -t origin/generated && \ 
+      git merge -X theirs --allow-unrelated-histories origin/main && \
+      if [[ ! -e generated ]]; then mkdir generated; fi
 
 
 ### Run pandoc using custom Docker image
@@ -41,9 +43,17 @@ steps:
     args:
     - -c
     - |
-      if [[ ! -e generated ]]; then mkdir generated; fi
       pandoc --version 
-      pandoc -f gfm  -V colorlinks -V urlcolor=NavyBlue -H contrib/header.tex --lua-filter="./contrib/columns.lua" --variable "geometry=margin=1in" --variable fontsize=10pt resume.md --pdf-engine=xelatex -o generated/resume.pdf
+      pandoc -f gfm  \
+      -V colorlinks \
+      -V urlcolor=NavyBlue \
+      -H contrib/header.tex \
+      --lua-filter="./contrib/columns.lua" \
+      --variable "geometry=margin=1in" \
+      --variable fontsize=10pt \
+      --pdf-engine=xelatex \
+      resume.md \
+      -o generated/resume.pdf
       
 
 # Commit generated PDF
