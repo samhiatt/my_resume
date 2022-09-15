@@ -1,7 +1,7 @@
 # My Resume
 My personal resume. 
 
-This repo contains a [Google Cloud Build profile](/cloudbuild.yaml) that automatically generates [my_resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/generated/resume.pdf) from the [markdown source here](/resume.md). 
+This repo contains the source code to automatically generate **[my_resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/generated/resume.pdf)** from the markdown source content in [resume.md](/resume.md) using [Pandoc](https://pandoc.org) and [Google Cloud Build](https://cloud.google.com/build). 
 
 
 ## Motivation
