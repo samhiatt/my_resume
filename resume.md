@@ -36,7 +36,7 @@ Experienced software engineer with a passion for applying open source technology
 ## Professional Experience
 
 ### Freelance Projects
-Charlotte, NC | August 2017 - Present
+ | Charlotte, NC | August 2017 - Present |
 
 #### Machine Learning Engineer — Avian Vocalizations Species Classifier
 * Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
@@ -58,7 +58,7 @@ San Francisco, CA | September 2013 – April 2017
 * Designed and built internal mapping tools to provide improved visibility into the quality control system supporting a global network of Personal Weather Stations.
 
 ### NASA ARC / Ecological Forecasting Lab / Univ Corp at Monterey Bay
-Moffett Field, CA | July 2007 - August 2013
+ | Moffett Field, CA | July 2007 - August 2013 |
 
 #### Geospatial Software Engineer / Web Developer
 * Worked with Earth scientists at NASA Ames Research Center on a range of applied science projects, implementing data modeling and analysis pipelines consuming satellite data and generating global insights about ecological processes.
@@ -66,7 +66,7 @@ Moffett Field, CA | July 2007 - August 2013
 * Worked with project stakeholders ranging from US National Parks land managers to Farmers in the California Central Valley to help them integrate NASA data into their decision making processes.
 
 ### Utah State University GIS Remote Sensing Lab
-Logan, UT | December 2006 - July 2007
+ | Logan, UT | December 2006 - July 2007 |
 
 ### Software Engineer 
 * Implemented data model and near real-time processing pipeline for predicting global land surface phenology (timing of seasons) using remote sensing imagery from NASA satellites.
@@ -76,7 +76,7 @@ Developed simple web interface for viewing model results.
 ## Education
 
 ### Utah State University, Quinney College of Natural Resources
-Logan, UT | June 2007
+ | Logan, UT | June 2007 |
 
 #### Bachelor of Science, Geography
 
@@ -87,7 +87,7 @@ Logan, UT | June 2007
 * Six-month immersive study (geography and computer science) at the University of Costa Rica
 
 ### Udacity
-Online | 2019  
+ | Online | 2019 |
 
 #### Machine Learning Engineer Nanodegree
 
@@ -99,7 +99,7 @@ Online | 2019
 ## Volunteering 
 
 ### Community Legal Services
-East Palo Alto, CA | 2010 – 2013
+ | East Palo Alto, CA | 2010 – 2013 |
 
 #### Interpreter / Translator
 
@@ -107,7 +107,7 @@ East Palo Alto, CA | 2010 – 2013
 * Spanish-English translation of personal declarations and legal documents.
 
 ### Human Rights Center at UC Berkeley
-Berkeley, CA | 2015 
+ | Berkeley, CA | 2015 | 
 
 #### Technology Fellow
 
