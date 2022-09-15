@@ -43,7 +43,7 @@ steps:
     - |
       if [[ ! -e generated ]]; then mkdir generated; fi
       pandoc --version 
-      pandoc -f gfm -H contrib/header.tex --lua-filter="./contrib/columns.lua" --variable "geometry=margin=1in" --variable fontsize=10pt resume.md --pdf-engine=xelatex -o generated/resume.pdf
+      pandoc -f gfm  -V colorlinks -V urlcolor=NavyBlue -H contrib/header.tex --lua-filter="./contrib/columns.lua" --variable "geometry=margin=1in" --variable fontsize=10pt resume.md --pdf-engine=xelatex -o generated/resume.pdf
       
 
 # Commit generated PDF
