@@ -47,11 +47,11 @@ steps:
       pandoc --version 
       pandoc -f gfm  \
       -H header.tex \
-      --variable "columns=100" \ 
       -V colorlinks \
       -V urlcolor=NavyBlue \
-      --variable "geometry=margin=1in" \
-      --variable fontsize=10pt \
+      -V "geometry=margin=1in" \
+      -V fontsize=10pt \
+      -V columns=100 \ 
       --pdf-engine=xelatex \
       resume.md \
       -o generated/resume.pdf
