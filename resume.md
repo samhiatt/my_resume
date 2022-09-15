@@ -1,14 +1,3 @@
----
-title: Resume - Samuel Hiatt
-author: 
-- name: Samuel Hiatt
-  email: samhiatt@gmail.com
-date: \date
-header-includes: |
-  \let\toprule\relax
-  \let\bottomrule\relax
----
-
 # Samuel Hiatt
 
  |      |       |      |
