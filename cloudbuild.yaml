@@ -47,8 +47,6 @@ steps:
       pandoc -f gfm  \
       -V colorlinks \
       -V urlcolor=NavyBlue \
-      -H contrib/header.tex \
-      --lua-filter="./contrib/columns.lua" \
       --variable "geometry=margin=1in" \
       --variable fontsize=10pt \
       --pdf-engine=xelatex \
