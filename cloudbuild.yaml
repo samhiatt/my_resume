@@ -49,8 +49,8 @@ steps:
       -H header.tex \
       -V colorlinks \
       -V urlcolor=NavyBlue \
-      --variable "geometry=margin=1in" \
-      --variable fontsize=10pt \
+      -V "geometry=margin=1in" \
+      -V fontsize=10pt \
       --pdf-engine=xelatex \
       resume.md \
       -o generated/resume.pdf
