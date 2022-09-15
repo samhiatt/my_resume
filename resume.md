@@ -2,7 +2,7 @@
 ::: threecolumns
 
 samhiatt@gmail.com  
-- - -  
+-  
 [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt)
 
 :::
