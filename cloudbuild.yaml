@@ -33,7 +33,7 @@ steps:
       git config --global user.email "samhiatt@gmail.com"
       git config --global user.name "Sam Hiatt / Google Cloud Build" 
       git fetch --all
-      git checkout -t origin/generated && git merge -X theirs --allow-unrelated-histories --squash origin/main
+      git checkout -t origin/generated && git merge -X theirs --allow-unrelated-histories origin/main
 
 
 ### Run pandoc using custom Docker image
