@@ -38,6 +38,7 @@ steps:
 
 
 ### Run pandoc using custom Docker image
+#   See: https://pandoc.org/MANUAL.html#variables-for-latex for options
   - name: 'gcr.io/$PROJECT_ID/pandoc:latest'
     entrypoint: 'bash'
     args:
