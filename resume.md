@@ -1,8 +1,6 @@
 # Samuel Hiatt
 
-      |       |      
- :--- | :---: | ---: 
- samhiatt@gmail.com | [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt) | [github.com/samhiatt](https://github.com/samhiatt) 
+ | samhiatt@gmail.com | [linkedin.com/in/shiatt](https://linkedin.com/in/shiatt) | [github.com/samhiatt](https://github.com/samhiatt) |
 
 
 ## Professional Summary
