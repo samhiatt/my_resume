@@ -51,7 +51,6 @@ steps:
       -V urlcolor=NavyBlue \
       -V "geometry=margin=1in" \
       -V fontsize=10pt \
-      -V columns=100 \ 
       --pdf-engine=xelatex \
       resume.md \
       -o generated/resume.pdf
