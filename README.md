@@ -1,5 +1,5 @@
 # My Resume
-My resume. 
+My personal resume. 
 
 This repo contains a [Google Cloud Build profile](/cloudbuild.yaml) that automatically generates [my_resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/generated/resume.pdf) from the [markdown source here](/resume.md). 
 
