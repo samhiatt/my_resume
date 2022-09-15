@@ -47,6 +47,7 @@ steps:
       pandoc --version 
       pandoc -f gfm  \
       -H header.tex \
+      --columns 120 \ 
       -V colorlinks \
       -V urlcolor=NavyBlue \
       --variable "geometry=margin=1in" \
