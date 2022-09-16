@@ -45,7 +45,7 @@ steps:
     - -c
     - |
       pandoc --version 
-      pandoc -H header.tex --pdf-engine=xelatex default_style.yaml resume.md -o generated/resume.pdf
+      pandoc -H header.tex --pdf-engine=xelatex -s default_style.yaml resume.md -o generated/resume.pdf
       
 
 # Commit generated PDF
