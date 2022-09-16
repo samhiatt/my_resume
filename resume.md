@@ -37,7 +37,9 @@ Experienced software engineer with a passion for applying open source technology
 ## Professional Experience
 
 ### Freelance Projects
- | Charlotte, NC | August 2017 - Present |
+ |      |       |      |
+ | :--- | :---: | ---: |
+ | Charlotte, NC |  | August 2017 - Present |
 
 #### Machine Learning Engineer — Avian Vocalizations Species Classifier
 * Developed a neural network audio signal classifier to infer bird species from recordings of vocalizations. 
