@@ -18,7 +18,7 @@ Using [Pandoc, a universal document converter](https://pandoc.org) and [Google C
 
 [cloudbuild.yaml](/cloudbuild.yaml) is used by Google Cloud Build whenever there is a new commit to the main branch. 
 
-[default_style.yaml](/default_style.yaml) includes options for styling the PDF output.
+[default_style.yaml](/default_style.yaml) includes options for styling the PDF output. See [Pandoc yaml_metadata_block documentation](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block).
 
 
 ## License
