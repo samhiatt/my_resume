@@ -1,7 +1,7 @@
 # My Resume
 My personal resume. 
 
-This repo contains the source code to automatically generate **[my_resume.pdf](https://github.com/samhiatt/my_resume/blob/generated/generated/my_resume.pdf)** from the markdown source content in [my_resume.md](/my_resume.md) using [Pandoc](https://pandoc.org) and [Google Cloud Build](https://cloud.google.com/build). 
+This repo contains the source code to automatically generate **[my_resume.pdf](https://github.com/samhiatt/my_resume/blob/release/dist/my_resume.pdf)** from the markdown source content in [my_resume.md](/my_resume.md) using [Pandoc](https://pandoc.org) and [Google Cloud Build](https://cloud.google.com/build). 
 
 
 ## Motivation
