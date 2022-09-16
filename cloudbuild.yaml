@@ -47,11 +47,8 @@ steps:
       pandoc --version 
       pandoc -f gfm  \
       -H header.tex \
-      -V colorlinks \
-      -V urlcolor=NavyBlue \
-      -V "geometry=margin=1in" \
-      -V fontsize=10pt \
       --pdf-engine=xelatex \
+      default_style.yaml
       resume.md \
       -o generated/resume.pdf
       
