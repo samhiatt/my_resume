@@ -1,0 +1,4 @@
+Update /etc/ImageMagick-6/policy.xml according to https://askubuntu.com/questions/1127260/imagemagick-convert-not-allowed to enable imagemagick to convert pdf to jpg.
+
+Converted using command found at 
+https://stackoverflow.com/questions/6605006/convert-pdf-to-image-with-high-resolution
