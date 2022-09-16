@@ -2,3 +2,6 @@ colorlinks: true
 urlcolor: NavyBlue
 geometry: margin=1in
 fontsize: 10pt
+header-includes: |
+  \let\toprule\relax
+  \let\bottomrule\relax
